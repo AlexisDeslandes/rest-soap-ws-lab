@@ -18,3 +18,13 @@ pour la partie client et affichage de chart pour le Monitoring.
 Il y a également des **modifications** sur le **Web service intermédiaire** avec cette extension
 (création d'une interface et une classe de plus pour gérer les requêtes des clients
 sur la partie Monitoring).
+
+### 3 - Step to test
+
+- Importer la solution "**SOAP_VELIB.sln**" depuis **Visual Studio**.
+- Click droit sur le projet "**SOAP_VELIB**", "**Deboguer**","**Démarrer une nouvelle instance**",
+vous venez de lancer le Web Service intermédiaire.
+- Click droit sur le projet "**Client**", "**Deboguer**","**Démarrer une nouvelle instance**",
+vous avez maintenant une console ouverte pour discuter avec le Web service intermédiaire.
+- Click droit sur le projet "**Client_graphique**", "**Deboguer**","**Démarrer une nouvelle instance**", vous venez de lancer le client graphique pour discuter avec le Web service intermédiaire.
+- Click droit sur le projet "**Monitoring_Client**", "**Deboguer**","**Démarrer une nouvelle instance**", vous venez de lancer le client graphique responsable de l'étude du monitoring sur le serveur.
