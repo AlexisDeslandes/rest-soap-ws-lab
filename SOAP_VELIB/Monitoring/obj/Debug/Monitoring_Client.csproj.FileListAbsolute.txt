@@ -1,0 +1,10 @@
+C:\Users\Desla\Documents\web_service\rest-soap-ws-lab\SOAP_VELIB\Monitoring\bin\Debug\Monitoring.exe.config
+C:\Users\Desla\Documents\web_service\rest-soap-ws-lab\SOAP_VELIB\Monitoring\bin\Debug\Monitoring.exe
+C:\Users\Desla\Documents\web_service\rest-soap-ws-lab\SOAP_VELIB\Monitoring\bin\Debug\Monitoring.pdb
+C:\Users\Desla\Documents\web_service\rest-soap-ws-lab\SOAP_VELIB\Monitoring\obj\Debug\Monitoring_Client.csprojResolveAssemblyReference.cache
+C:\Users\Desla\Documents\web_service\rest-soap-ws-lab\SOAP_VELIB\Monitoring\obj\Debug\Monitoring.Form1.resources
+C:\Users\Desla\Documents\web_service\rest-soap-ws-lab\SOAP_VELIB\Monitoring\obj\Debug\Monitoring.Properties.Resources.resources
+C:\Users\Desla\Documents\web_service\rest-soap-ws-lab\SOAP_VELIB\Monitoring\obj\Debug\Monitoring_Client.csproj.GenerateResource.cache
+C:\Users\Desla\Documents\web_service\rest-soap-ws-lab\SOAP_VELIB\Monitoring\obj\Debug\Monitoring_Client.csproj.CoreCompileInputs.cache
+C:\Users\Desla\Documents\web_service\rest-soap-ws-lab\SOAP_VELIB\Monitoring\obj\Debug\Monitoring.exe
+C:\Users\Desla\Documents\web_service\rest-soap-ws-lab\SOAP_VELIB\Monitoring\obj\Debug\Monitoring.pdb

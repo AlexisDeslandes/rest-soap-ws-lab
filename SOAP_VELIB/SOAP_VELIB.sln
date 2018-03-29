@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client_graphique", "Client_graphique\Client_graphique.csproj", "{91C24513-2A5D-40F5-A442-7562EE70F4F9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monitoring_Client", "Monitoring\Monitoring_Client.csproj", "{B0905D4D-1EFA-498A-A9FA-342F2257E242}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{91C24513-2A5D-40F5-A442-7562EE70F4F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91C24513-2A5D-40F5-A442-7562EE70F4F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91C24513-2A5D-40F5-A442-7562EE70F4F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0905D4D-1EFA-498A-A9FA-342F2257E242}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0905D4D-1EFA-498A-A9FA-342F2257E242}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0905D4D-1EFA-498A-A9FA-342F2257E242}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0905D4D-1EFA-498A-A9FA-342F2257E242}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

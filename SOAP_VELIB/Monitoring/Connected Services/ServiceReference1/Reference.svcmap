@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="cd9707e4-ee02-494b-ad52-a957bbcc8ef3" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8092/SOAP_VELIB/monitoring/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="b14e12c1-103e-4727-bf3f-6317b822a18f" SourceId="1" SourceUrl="http://localhost:8092/SOAP_VELIB/monitoring/?xsd=xsd2" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="da4efcf9-ff0f-4100-a192-78a1ba909e79" SourceId="1" SourceUrl="http://localhost:8092/SOAP_VELIB/monitoring/?disco" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="bff5287c-efa6-4c47-953c-818f952c5e7e" SourceId="1" SourceUrl="http://localhost:8092/SOAP_VELIB/monitoring/?xsd=xsd0" />
+    <MetadataFile FileName="MonitoringOperation.wsdl" MetadataType="Wsdl" ID="d68ef32e-724b-4041-ba9e-ab59aadc6eb8" SourceId="1" SourceUrl="http://localhost:8092/SOAP_VELIB/monitoring/?wsdl" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="15784fb5-c097-4aeb-a170-c5ff3a971c50" SourceId="1" SourceUrl="http://localhost:8092/SOAP_VELIB/monitoring/?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
