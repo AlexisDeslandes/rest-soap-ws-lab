@@ -1,0 +1,9 @@
+C:\Users\Desla\Documents\service_web\rest-soap-ws-lab\SOAP_VELIB\SOAP_VELIB\bin\Release\SOAP_VELIB.dll.config
+C:\Users\Desla\Documents\service_web\rest-soap-ws-lab\SOAP_VELIB\SOAP_VELIB\bin\Release\SOAP_VELIB.dll
+C:\Users\Desla\Documents\service_web\rest-soap-ws-lab\SOAP_VELIB\SOAP_VELIB\bin\Release\SOAP_VELIB.pdb
+C:\Users\Desla\Documents\service_web\rest-soap-ws-lab\SOAP_VELIB\SOAP_VELIB\bin\Release\Newtonsoft.Json.dll
+C:\Users\Desla\Documents\service_web\rest-soap-ws-lab\SOAP_VELIB\SOAP_VELIB\bin\Release\Newtonsoft.Json.xml
+C:\Users\Desla\Documents\service_web\rest-soap-ws-lab\SOAP_VELIB\SOAP_VELIB\obj\Release\SOAP_VELIB.csproj.CoreCompileInputs.cache
+C:\Users\Desla\Documents\service_web\rest-soap-ws-lab\SOAP_VELIB\SOAP_VELIB\obj\Release\SOAP_VELIB.csproj.CopyComplete
+C:\Users\Desla\Documents\service_web\rest-soap-ws-lab\SOAP_VELIB\SOAP_VELIB\obj\Release\SOAP_VELIB.dll
+C:\Users\Desla\Documents\service_web\rest-soap-ws-lab\SOAP_VELIB\SOAP_VELIB\obj\Release\SOAP_VELIB.pdb

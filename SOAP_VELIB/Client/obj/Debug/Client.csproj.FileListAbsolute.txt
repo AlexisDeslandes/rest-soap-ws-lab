@@ -1,0 +1,7 @@
+C:\Users\Desla\Documents\service_web\rest-soap-ws-lab\SOAP_VELIB\Client\bin\Debug\Client.exe.config
+C:\Users\Desla\Documents\service_web\rest-soap-ws-lab\SOAP_VELIB\Client\bin\Debug\Client.exe
+C:\Users\Desla\Documents\service_web\rest-soap-ws-lab\SOAP_VELIB\Client\bin\Debug\Client.pdb
+C:\Users\Desla\Documents\service_web\rest-soap-ws-lab\SOAP_VELIB\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+C:\Users\Desla\Documents\service_web\rest-soap-ws-lab\SOAP_VELIB\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\Desla\Documents\service_web\rest-soap-ws-lab\SOAP_VELIB\Client\obj\Debug\Client.exe
+C:\Users\Desla\Documents\service_web\rest-soap-ws-lab\SOAP_VELIB\Client\obj\Debug\Client.pdb
