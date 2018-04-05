@@ -1,5 +1,7 @@
 ﻿using Client.ServiceReference1;
 using System;
+using System.ServiceModel;
+
 namespace Client
 {
     class Program
@@ -9,7 +11,11 @@ namespace Client
         
         static void Main(string[] args)
         {
-            service = new VelibOperationClient();
+            ServiceReference1.IVelibOperationCallback callback = new CallbaclSink();
+            InstanceContext context = new InstanceContext(callback);
+            service = new VelibOperationClient(context);
+            service.SubscribeStationDataEvent();
+            service.SubscribeStationFinishEvent();
             Display_main_menu();
             bool is_finish = false;
             while (!is_finish)
@@ -82,7 +88,7 @@ namespace Client
 
         static Station getChosenStation(City city)
         {
-            Station[] stations = service.GetVelibStations(city);
+            Station[] stations = service.GetVelibStations(city);                       
             int station_iterator = 0;
             foreach (Station station in stations)
             {
@@ -91,6 +97,7 @@ namespace Client
             Console.WriteLine("\n\n");
             Console.WriteLine("Choisissez l'une des stations disponibles précédentes.");
             int choise = int.Parse(Console.ReadLine());
+            service.getStation(stations[choise].Name, city);
             return stations[choise];
         }
     }

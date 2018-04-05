@@ -10,8 +10,12 @@ using System.Web;
 
 namespace SOAP_VELIB
 {
+    [ServiceBehavior(InstanceContextMode = InstanceContextMode.PerCall)]
     public class VelibOperation : IVelibOperation
     {
+
+        static Action<string,Station> m_Event1 = delegate { };
+        static Action m_Event2 = delegate { };
 
         private string apikey = "4c69e62923a5ff9ac8bf30ce6f52db8d9f11a121";
 
@@ -78,8 +82,36 @@ namespace SOAP_VELIB
             }
             MonitoringOperation.delays.Add((DateTime.UtcNow - begin).TotalMilliseconds);
             return stations;
-        }  
-        
+        }
+
+        public void getStation(string station_name,City city)
+        {
+            List<Station> stations = GetVelibStations(city);
+            Station to_return = null;
+            foreach(Station station in stations)
+            {
+                if (station.Name.Equals(station_name))
+                {
+                    to_return = station;
+                    m_Event1(station_name,station);
+                    m_Event2();
+                    break;
+                }
+            }                        
+        }
+
+        public void SubscribeStationDataEvent()
+        {
+            ISubscribeOperationEvents subscriber = OperationContext.Current.GetCallbackChannel<ISubscribeOperationEvents>();
+            m_Event1 += subscriber.getStation;
+        }
+
+        public void SubscribeStationFinishEvent()
+        {
+            ISubscribeOperationEvents subscriber = OperationContext.Current.GetCallbackChannel<ISubscribeOperationEvents>();
+            m_Event2 += subscriber.getStationFinished;
+        }
+
         private void addIp()
         {
             OperationContext context = OperationContext.Current;
